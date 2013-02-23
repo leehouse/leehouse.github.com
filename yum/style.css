@@ -53,4 +53,15 @@ table {
 
 /* END RESET */
 
+h1 {
+	font-family:helvetica;
+	font-size:4em;
+	font-weight:bold;
+	color:sienna;
+	}
+	
+a {
+	text-decoration:none;
+	color:gray;
+	}
 
