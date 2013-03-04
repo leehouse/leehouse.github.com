@@ -53,15 +53,41 @@ table {
 
 /* END RESET */
 
-h1 {
-	font-family:helvetica;
-	font-size:4em;
-	font-weight:bold;
-	color:sienna;
+body {
+	font-family:verdana;
+	max-width:400px;
+	}
+
+.pagenav {
+	float: left;
+	}
+
+h1 { 
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(112,112,112);
+	padding:50px 10px 15px 10px;
 	}
 	
-a {
+	
+a:link {
 	text-decoration:none;
-	color:gray;
+	color: rgb(112,112,112);
+	}
+
+a:visited {
+	text-decoration:none;
+	color: rgb(112,112,112);
+	}
+	
+.bodylists {
+	font-size:1em;
+	color: rgb(64,64,64);
+	padding: 0px 0px 0px 10px;
+	}
+	
+aside {
+	font-weight: bold;
+	padding:50px 10px 15px 10px;
 	}
 
