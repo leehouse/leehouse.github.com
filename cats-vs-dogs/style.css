@@ -77,33 +77,49 @@ html[xmlns] .clearfix { display: block; }
 
 body {
 	margin:0 auto;
-  width:960px;
-	}
+  	width:960px;
+  	text-align: center;
+}
 
 img {
-	padding: 20px 20px 20px 0px;
+	width: 440px;
+	padding: 20px 0px 20px 0px;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
 	}
-
-nav {
-	padding: 5px 20px 20px 60px;
-  text-align: center;
-}
-
-footer {padding-left: 60px;}
-
-li {
-	float:left;
-	padding: 0px 20px 0px 20px;
-	}
-
+	
 a:link {
 	text-decoration: none;
+	}
+
+#navigation {
+	width: 960px;
+	margin:0 auto;
+	text-align: center;}
+	
+#uno {list-style: none;}
+
+li {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
 	font-family:georgia;
 	color:black;
-	}
+	float:left;
+	padding: 5px 20px 0px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	width: 144px;
+	height: 30px;
+	text-align: left;
+	border-top: 3pt solid black;
+	border-bottom: 3pt solid black;
+	list-style-type: disc;
+
+}
+
 	
 
 h1 {
@@ -114,12 +130,50 @@ h1 {
 	}
 
 section {
-	max-width: 400px;
-	padding: 40px 20px 20px 60px;
+	width: 440px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
 	float: left;
+	text-align: left;
 	}
 	
+#dogs {
+	padding: 10px 0px 20px 0px;
+	}
+	
+#cats { 
+	padding: 10px 0px 20px 40px;
+	}
+
+p {
+	font-family: Georgia;
+	font-size: 1 em;
+	line-height: 1.5em;
+}
+
 footer {
-	font-size:12px;
+	width: 960px;
+	font-size:11px;
+	}
+	
+#wiki {
+	float: left;
+	text-align: left;
+	width: 460px;
+	padding-top: 20px;
+	border-top: 3px solid black;
+	}
+	
+#martha {
+	float: left;
+	text-align: right;
+	width: 460px;
+	padding-top: 20px;
+	border-top: 3px solid black;
+	}
+	
+.footerlink {
+	color: red;
 	}
 
