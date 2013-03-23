@@ -82,6 +82,10 @@ a:link {
 	color: #744918;
 	margin-top: 10px;
 	}
+	
+#top-nav a {
+	color: #744918;
+	}
 
 #menu-wrapper {
 	position: absolute;
