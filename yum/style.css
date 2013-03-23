@@ -53,41 +53,60 @@ table {
 
 /* END RESET */
 
+
 body {
 	font-family:verdana;
-	max-width:400px;
+	margin: 0 auto;
+	width: 960px;
+	font-size:.75em;
+	line-height: 1.5em;
+	}
+	
+img {
+	display: block;
+	width: 40%;
+	margin: 0 auto;
 	}
 
-.pagenav {
-	float: left;
-	}
 
 h1 { 
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
-	color: rgb(112,112,112);
-	padding:50px 10px 15px 10px;
+	color: #9a8478;
+	padding:10px 10px 15px 0px;
 	}
 	
-	
+#navigation {
+	text-align:center;
+	}
+
+a {
+	line-height: 1.5em;
+	text-align: center;
+	}	
+
 a:link {
 	text-decoration:none;
-	color: rgb(112,112,112);
+	color: #9a8478;
 	}
 
 a:visited {
 	text-decoration:none;
-	color: rgb(112,112,112);
-	}
-	
-.bodylists {
-	font-size:1em;
-	color: rgb(64,64,64);
-	padding: 0px 0px 0px 10px;
+	color: #9a8478;
 	}
 	
 aside {
 	font-weight: bold;
-	padding:50px 10px 15px 10px;
+	font-size: 10px;
+	padding:50px 10px 15px 300px;
+	color: #9a8478;
+	}
+	
+section {
+	padding: 10px 300px 15px 300px;
+	}
+	
+p {
+	padding-bottom: 1em;
 	}
 
