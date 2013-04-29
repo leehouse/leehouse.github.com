@@ -75,23 +75,124 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+body {
+	height: auto;
+	}
+
 #wrapper { 
 	position: fixed;
-	height: 5 em;
+	height: 5em;
 	background-color: white;
 	width: 100%;
+	z-index:20;
+	top: 0;
 	}
 	
 #pagetitle {
 	float: left;
 	height: 5em;
+	padding: 2em;
 	}
 
 #mainnav {
 	float: left;
+	padding: 2em;
+	right: 0;
 	}
 	
+a {
+	text-decoration: none;
+	color: #333333;
+	}	
+	
+a:hover {
+	color: #cc0033;
+	}	
+	
+#work {
+	position: relative;
+	margin-top: 8em;
+	}
+
 .workimg {
 	float: left;
+	margin: 2em;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-height: 313px;
+	max-width: 250px;
 	}
+
+.hoverwrap {
+	position: absolute;
+	bottom: 0;
+	color: #cc0033;
+	opacity: 0;
+	height: 313px;
+	width: 250px;
+	z-index:1000;
+	}
+	
+.hoverwrap:hover {
+	opacity: 1;
+	}
+	
+.worktext {
+	position: absolute;
+	bottom: 0;
+	color: #cc0033;
+	background-color: white;
+	opacity: .85;
+	height: 30%;
+	width: 100%;
+	max-height: 313px;
+	max-width: 250px;
+	}
+	
+
+	
+#footer {
+	position: relative;
+	bottom: 0;
+	float: left;
+	width: 100%;
+	margin-top: 10em;
+	background-color: #666666;
+	}
+	
+section {
+	position: relative;
+	float: left;
+	max-width: 250px;
+	width: 100%;
+	padding: 2em;
+	color: white;
+	line-height: 1.5em;
+	}	
+
+#contact {
+	float: left;
+	}
+	
+#instagram {
+	line-space:3em;
+	}
+	
+#about {
+	float: left;
+	}
+	
+#resume {
+	float: left;
+	}
+	
+#copyright {
+	float: left;
+	}
+	
+@media screen and (max-width: 600px) {
+	
+	}
+
 
