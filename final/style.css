@@ -75,5 +75,23 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+#wrapper { 
+	position: fixed;
+	height: 5 em;
+	background-color: white;
+	width: 100%;
+	}
+	
+#pagetitle {
+	float: left;
+	height: 5em;
+	}
 
+#mainnav {
+	float: left;
+	}
+	
+.workimg {
+	float: left;
+	}
 
