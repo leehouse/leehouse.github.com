@@ -118,10 +118,13 @@ a:hover {
 	float: left;
 	margin: 2em;
 	position: relative;
+	max-height: 250px;
+	max-width: 200px;
+	}
+	
+.workimg img {
 	height: 100%;
 	width: 100%;
-	max-height: 313px;
-	max-width: 250px;
 	}
 
 .hoverwrap {
@@ -129,13 +132,14 @@ a:hover {
 	bottom: 0;
 	color: #cc0033;
 	opacity: 0;
-	height: 313px;
-	width: 250px;
+	height: 250px;
+	width: 200px;
 	z-index:10;
 	}
 	
 .hoverwrap:hover {
 	opacity: 1;
+	
 	}
 	
 .worktext {
@@ -146,8 +150,8 @@ a:hover {
 	opacity: .85;
 	height: 30%;
 	width: 100%;
-	max-height: 313px;
-	max-width: 250px;
+	max-height: 250px;
+	max-width: 200px;
 	padding: .5em;
 	}
 	
