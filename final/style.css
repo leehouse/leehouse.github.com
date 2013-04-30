@@ -131,7 +131,7 @@ a:hover {
 	opacity: 0;
 	height: 313px;
 	width: 250px;
-	z-index:1000;
+	z-index:10;
 	}
 	
 .hoverwrap:hover {
