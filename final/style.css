@@ -328,24 +328,24 @@ section {
 #contact {
 	float: left;
 	font-family: 'ColaborateRegular', verdana, sans serif; 
-	font-size: 1em;
+	font-size: .8em;
 	}
 	
 #contact h2 {
 	font-family: 'ColaborateBold', verdana, sans serif;
-	font-size: 1em;
+	font-size: .8em;
 	color: #505050;
 	}
 	
 #about {
 	float: left;
 	font-family: 'ColaborateRegular', verdana, sans serif;
-	font-size: 1em;
+	font-size: .8em;
 	}
 	
 #about #massart {
 	font-family: 'ColaborateBold', verdana, sans serif;
-	font-size: 1em;
+	font-size: .8em;
 	color: #181818;
 	}
 
