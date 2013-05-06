@@ -328,12 +328,12 @@ section {
 #contact {
 	float: left;
 	font-family: 'ColaborateRegular', verdana, sans serif; 
-	font-size: .8em;
+	font-size: 1em;
 	}
 	
 #contact h2 {
 	font-family: 'ColaborateBold', verdana, sans serif;
-	font-size: .8em;
+	font-size: 1em;
 	color: #505050;
 	}
 	
