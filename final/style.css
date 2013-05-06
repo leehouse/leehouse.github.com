@@ -380,4 +380,8 @@ section {
 		margin: 0 auto;
 		padding: 2em;
 		}
+		
+		#footer {
+		width: 100%;
+		}
 		}
