@@ -147,11 +147,15 @@ li {
 
 #description {
 	position: fixed;
-	height: 15%;
+	display: block;
+	float: left;
+	right: 0;
+	left: 0;
 	width: 100%;
 	background-color: white;
 	top: 0;
 	padding-top: 4em;
+	padding-bottom: 1.5em;
 	}
 	
 #description h2 {
