@@ -99,32 +99,6 @@ html[xmlns] .clearfix { display: block; }
 
 }
 
-@media screen and (min-width:0px) and (max-width:550px) {
-	img { max-width: 100%;}
-	#work {width: 100%;
-			margin-left: auto;
-			margin-right: auto;
-			}
-	#description h2 {
-	float: left;
-	margin-top: 4em;
-	padding-left: 2em;
-	font-size: 1em;
-	line-height: 1.25em;
-	max-width: 200px;
-	width: 100%;
-	}
-
-#description p {
-	float: left;
-	margin-top: 1.5em;
-	padding-left: 2em;
-	font-family: 'ColaborateRegular', verdana, sans-serif;
-	font-size: 1em;
-	max-width: 550px;
-	width: 100%;
-	}
-}
 
 body {
 	height: auto;
@@ -163,38 +137,62 @@ li {
 	padding-left: 2em;
 	}
 	
+#mainnav li a:hover {
+	color: #181818;
+	}
+	
+/* project page */
+
 #description {
 	position: fixed;
-	height: 13em;
+	height: 16em;
 	width: 100%;
-	background-color: orange;
+	background-color: white;
 	top: 0;
+	padding-top: 4em;
 	}
 	
 #description h2 {
 	float: left;
-	margin-top: 4em;
 	padding-left: 2em;
+	padding-right:2em;
+	padding-bottom: 1em;
 	font-family: 'ColaborateBold', verdana, sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
 	max-width: 200px;
 	width: 100%;
+	color: #181818;
 	}
 	
 #tags {
 	font-family: 'ColaborateRegular', verdana, sans-serif;
+	color: #505050;
 	}
 
 #description p {
 	float: left;
-	margin-top: 4em;
-	padding-left: 4em;
+	padding-left: 2em;
 	font-family: 'ColaborateRegular', verdana, sans-serif;
 	font-size: 1em;
-	max-width: 550px;
-	width: 75%;
+	line-height: 1.25em;
+	max-width: 400px;
+	width: 100%;
+	color: #505050;
 	}
+
+#project {
+	margin-top: 20em;
+	}
+
+#project img {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2em;
+	}
+	
+/* end project page */
 	
 #info a {
 	font-family: 'ColaborateRegular', verdana, sans-serif;
@@ -276,8 +274,6 @@ a:hover {
 	position: relative;
 	color: #181818;
 	float: left;
-	left: 0;
-	margin-left: 2em;
 	margin-bottom:1em;
 	font-family: 'ColaborateRegular' verdana, sans serif;
 	font-size: .8em;
@@ -345,7 +341,7 @@ section {
 #about #massart {
 	font-family: 'ColaborateBold', verdana, sans serif;
 	font-size: 1em;
-	color: #505050;
+	color: #181818;
 	}
 
 #about #massart:hover {
