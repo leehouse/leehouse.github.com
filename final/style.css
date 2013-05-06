@@ -116,7 +116,6 @@ body {
 	
 #pagetitle a {
 	float: left;
-	height: 5em;
 	padding: 1em;
 	padding-left: 2em;
 	font-family: 'ColaborateBold', verdana, sans-serif;
@@ -371,7 +370,7 @@ section {
 		}
 		
 	#description p {
-		max-width: 350px;
+		width: 100%;
 		}
 		
 		.workimg {
