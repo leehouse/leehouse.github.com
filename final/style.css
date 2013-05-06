@@ -201,7 +201,7 @@ li {
 	
 /* end project page */
 	
-#info a {
+.info a {
 	font-family: 'ColaborateRegular', verdana, sans-serif;
 	font-size: 1em;
 	}
