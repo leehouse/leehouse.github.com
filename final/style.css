@@ -131,6 +131,7 @@ body {
 	padding: 1em;
 	right: 0;
 	}
+	
 
 li {
 	float: left;
@@ -140,6 +141,7 @@ li {
 #mainnav li a:hover {
 	color: #181818;
 	}
+
 	
 /* project page */
 
@@ -332,7 +334,6 @@ section {
 	color: #505050;
 	}
 	
-	
 #about {
 	float: left;
 	font-family: 'ColaborateRegular', verdana, sans serif;
@@ -358,4 +359,10 @@ section {
 	font-family: 'ColaborateRegular', verdana, sans serif;
 	font-size: .8em;
 	}
-
+	
+@media (max-width: 480px) {
+	#pagetitle a {
+		max-width:100px;
+		width: 100%;
+		}
+		}
