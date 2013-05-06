@@ -145,7 +145,7 @@ li {
 
 #description {
 	position: fixed;
-	height: 16em;
+	height: 15%;
 	width: 100%;
 	background-color: white;
 	top: 0;
@@ -177,17 +177,17 @@ li {
 	font-family: 'ColaborateRegular', verdana, sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
-	max-width: 390px;
+	max-width: 350px;
 	width: 100%;
 	color: #505050;
 	}
 
 #project {
-	margin-top: 20em;
+	margin-top: 12em;
 	}
 
 #project img {
-	max-width: 800px;
+	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 2em;
