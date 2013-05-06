@@ -99,6 +99,33 @@ html[xmlns] .clearfix { display: block; }
 
 }
 
+@media screen and (min-width:0px) and (max-width:550px) {
+	img { max-width: 100%;}
+	#work {width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			}
+	#description h2 {
+	float: left;
+	margin-top: 4em;
+	padding-left: 2em;
+	font-size: 1em;
+	line-height: 1.25em;
+	max-width: 200px;
+	width: 100%;
+	}
+
+#description p {
+	float: left;
+	margin-top: 1.5em;
+	padding-left: 2em;
+	font-family: 'ColaborateRegular', verdana, sans-serif;
+	font-size: 1em;
+	max-width: 550px;
+	width: 100%;
+	}
+}
+
 body {
 	height: auto;
 	}
@@ -147,7 +174,7 @@ li {
 #description h2 {
 	float: left;
 	margin-top: 4em;
-	margin-left: 2em;
+	padding-left: 2em;
 	font-family: 'ColaborateBold', verdana, sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
@@ -160,11 +187,12 @@ li {
 	}
 
 #description p {
-	float: right;
+	float: left;
 	margin-top: 4em;
-	margin-left: 2em;
+	padding-left: 4em;
 	font-family: 'ColaborateRegular', verdana, sans-serif;
 	font-size: 1em;
+	max-width: 550px;
 	width: 75%;
 	}
 	
@@ -185,8 +213,6 @@ a:hover {
 #work {
 	position: relative;
 	margin-top: 5em;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
 	width: 100%;
 	}
 
