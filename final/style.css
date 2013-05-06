@@ -75,43 +75,118 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+@font-face {
+    font-family: 'ColaborateRegular';
+    src: url('fonts/ColabReg-webfont.eot');
+    src: url('fonts/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabReg-webfont.woff') format('woff'),
+         url('fonts/ColabReg-webfont.ttf') format('truetype'),
+         url('fonts/ColabReg-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateBold';
+    src: url('fonts/ColabBol-webfont.eot');
+    src: url('fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabBol-webfont.woff') format('woff'),
+         url('fonts/ColabBol-webfont.ttf') format('truetype'),
+         url('fonts/ColabBol-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: medium;
+    font-style: medium;
+
+}
+
 body {
 	height: auto;
 	}
 
 #wrapper { 
 	position: fixed;
-	height: 5em;
-	background-color: white;
+	height: 3em;
+	background-color: #cc0066;
 	width: 100%;
 	z-index:20;
 	top: 0;
+	opacity: .9;
 	}
 	
-#pagetitle {
+#pagetitle a {
 	float: left;
 	height: 5em;
-	padding: 2em;
+	padding: 1em;
+	padding-left: 2em;
+	font-family: 'ColaborateBold', verdana, sans-serif;
+	font-size: 1em;
+	max-width: 200px;
+	width: 100%;
+	color: #181818;
 	}
 
 #mainnav {
 	float: left;
-	padding: 2em;
+	padding: 1em;
 	right: 0;
 	}
+
+li {
+	float: left;
+	padding-left: 2em;
+	}
 	
+#description {
+	position: fixed;
+	height: 13em;
+	width: 100%;
+	background-color: orange;
+	top: 0;
+	}
+	
+#description h2 {
+	float: left;
+	margin-top: 4em;
+	margin-left: 2em;
+	font-family: 'ColaborateBold', verdana, sans-serif;
+	font-size: 1em;
+	line-height: 1.25em;
+	max-width: 200px;
+	width: 100%;
+	}
+	
+#tags {
+	font-family: 'ColaborateRegular', verdana, sans-serif;
+	}
+
+#description p {
+	float: right;
+	margin-top: 4em;
+	margin-left: 2em;
+	font-family: 'ColaborateRegular', verdana, sans-serif;
+	font-size: 1em;
+	width: 75%;
+	}
+	
+#info a {
+	font-family: 'ColaborateRegular', verdana, sans-serif;
+	font-size: 1em;
+	}
+
 a {
 	text-decoration: none;
-	color: #333333;
+	color: white;
 	}	
 	
 a:hover {
-	color: #cc0033;
+	color: #cc0066;
 	}	
 	
 #work {
 	position: relative;
 	margin-top: 8em;
+	margin: 0 auto;
+	width: 100%;
 	}
 
 .workimg {
@@ -130,7 +205,7 @@ a:hover {
 .hoverwrap {
 	position: absolute;
 	bottom: 0;
-	color: #cc0033;
+	color: #cc0066;
 	opacity: 0;
 	height: 250px;
 	width: 200px;
@@ -145,17 +220,62 @@ a:hover {
 .worktext {
 	position: absolute;
 	bottom: 0;
-	color: #cc0033;
+	color: #cc0066;
 	background-color: white;
 	opacity: .85;
 	height: 30%;
 	width: 100%;
 	max-height: 250px;
 	max-width: 200px;
-	padding: .5em;
 	}
 	
+.worktext h2 {
+	font-family: 'ColaborateBold', verdana, sans serif;
+	font-size: .8em;
+	line-height: 1em;
+	padding-top: .5em;
+	padding-left: .5em;
+	}
+	
+.worktext p {
+	font-family: 'ColaborateRegular' verdana, sans serif;
+	font-size: .8em;
+	line-height: 1em;
+	padding-top: .3em;
+	padding-left: .5em;
+	}
+	
+#top {
+	position: relative;
+	color: #181818;
+	float: left;
+	left: 0;
+	margin-left: 2em;
+	margin-bottom:1em;
+	font-family: 'ColaborateRegular' verdana, sans serif;
+	font-size: .8em;
+	color: #181818;
+	}
 
+#top:hover {
+	color: #cc0066;
+	}
+	
+#infojump {
+	position: absolute;
+	left: 0;
+	bottom: 14em;
+	padding-bottom: 8em;
+	}
+	
+	
+#totop {
+	padding-bottom: 5 em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+	
 	
 #footer {
 	position: relative;
@@ -163,7 +283,7 @@ a:hover {
 	float: left;
 	width: 100%;
 	margin-top: 10em;
-	background-color: #666666;
+	background-color: #888888;
 	}
 	
 section {
@@ -178,26 +298,40 @@ section {
 
 #contact {
 	float: left;
+	font-family: 'ColaborateRegular', verdana, sans serif; 
+	font-size: 1em;
 	}
 	
-#instagram {
-	line-space:3em;
+#contact h2 {
+	font-family: 'ColaborateBold', verdana, sans serif;
+	font-size: 1em;
+	color: #505050;
 	}
+	
 	
 #about {
 	float: left;
+	font-family: 'ColaborateRegular', verdana, sans serif;
+	font-size: 1em;
 	}
 	
-#resume {
-	float: left;
+#about #massart {
+	font-family: 'ColaborateBold', verdana, sans serif;
+	font-size: 1em;
+	color: #505050;
 	}
+
+#about #massart:hover {
+	color: #cc0066;
+	}	
 	
 #copyright {
 	float: left;
+	color: #505050;
 	}
 	
-@media screen and (max-width: 600px) {
-	
+#copyright p {
+	font-family: 'ColaborateRegular', verdana, sans serif;
+	font-size: .8em;
 	}
-
 
