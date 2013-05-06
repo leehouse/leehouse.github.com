@@ -185,7 +185,8 @@ a:hover {
 #work {
 	position: relative;
 	margin-top: 8em;
-	margin: 0 auto;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 	width: 100%;
 	}
 
