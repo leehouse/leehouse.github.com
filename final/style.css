@@ -368,11 +368,7 @@ section {
 		max-width:100px;
 		width: 100%;
 		}
-		
-	#description p {
-		width: 100%;
-		}
-		
+			
 		.workimg {
 		max-width: 450px;
 		width: 100%
@@ -384,3 +380,10 @@ section {
 		width: 100%;
 		}
 		}
+		
+@media (max-width: 350px) {
+		#description p {
+		width: 100%;
+		}
+		}
+
